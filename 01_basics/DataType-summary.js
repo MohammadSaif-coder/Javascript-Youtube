@@ -37,3 +37,31 @@ const myFun=function(){
 }
 
 
+//********************************** */
+
+// Stack and Heap In Javascript...........
+
+// Stack(Primitive)   and    Heap(Non-Primitive)
+
+let myGitHubname="Mohammad Saif Coder"
+
+let anotherName="boom boom"
+
+console.log(myGitHubname)
+
+console.log(anotherName)
+
+let userOne={
+
+    email:"saif@google.com",
+
+    Upi:"user@icici"
+
+}
+
+let userTwo=userOne
+
+userTwo.email="boomboom@786gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
